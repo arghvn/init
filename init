@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func init() {
+
+	fmt.Println("first")
+
+}
+
+func main() {
+
+	fmt.Println("second")
+
+}
+
+//There is a function called init in GO, which if defined and the program is executed,
+// first the contents inside it is executed and after completing these contents, it goes to the mian function.
+//Like the above code:
